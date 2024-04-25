@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body
+{
+    font-family: 'montserrat',sans-serif;
+    background-color: #111111;
+   
+}
+/* .navbar button
+{
+    color: red;
+} */
+.navbar
+{
+    background-color:#111111;
+}
+.navbar .navbar-brand 
+{
+    color: #f5f5f7;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-link
+{
+    color: #f5f5f7;
+    font-size: 13px;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: red;
+}
+.landing_section h3
+{
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .about h1
+{
+    font-size: 60px;
+    font-weight: 600;
+    color:#f5f5f5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.about h3
+{
+    font-size: 16px;
+    font-weight: 400;
+    color:#15d7C8;
+    padding-top: 25px;
+    
+}
+.about_sec2 h1
+{
+    font-size: 26px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    color:#f5f5f5;
+}
+.about_sec2 .intro1
+{
+    padding-top: 5px;
+    font-size: 15px;
+    color:#f5f5f5;
+}
+.about_sec2 .intro2
+{
+    padding-top: 5px;
+    font-size: 15px;
+    color:#f5f5f5;
+}
+.about_sec2 .technologies
+{
+    padding-top: 5px;
+    font-size: 15px;
+    color:#f5f5f5;
+    
+}
+.table-dark
+{   
+    color: #f5f5f5;
+    border-color: transparent;
+   
+}
+.table-dark span
+{
+    color: #4CAACC;
+}
+.table-dark td
+{
+    background-color: #111111;
+}
