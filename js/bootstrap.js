@@ -3,6 +3,17 @@
   * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
+document.getElementById("addAlertBtn").addEventListener("click", function() {
+    // Create the alert div
+    var alertDiv = document.createElement("div");
+    alertDiv.classList.add("alert", "alert-danger");
+    alertDiv.setAttribute("role", "alert");
+    alertDiv.textContent = "A simple danger alert—check it out!";
+
+    // Append the alert div to the body or any other desired location
+    document.body.appendChild(alertDiv);
+});
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core')) :
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
